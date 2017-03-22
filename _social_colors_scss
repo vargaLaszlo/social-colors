@@ -1,0 +1,80 @@
+// Social&Brand colors
+
+$amazon     :	#ff9700;
+$apple      :	#737373;
+$basecamp   :	#6bbd6d;
+$dribbble   :	#ed4584;
+$dropbox    :	#0d84de;
+$ebay       :	#083790;
+$facebook   :	#3b5998;
+$facebook2  :	#6d84b4;
+$facebook3  :	#afbdd4;
+$facebook4  :	#d8dfea;
+$flickr     :	#ff0084;
+$foursquare : #207dc5;
+$github     :	#2f2f2f;
+$github2    : #4078c0;
+$google     :	#4285f4;
+$googlePlus :	#dd4b39;
+$googlePlus2:	#e0452c;
+$instagram  :	#517fa4;
+$linkedin   :	#007bb6;
+$npm        : #CB3837;
+$pinterest  :	#cb2027;
+$quora      :	#a82400;
+$rss        :	#ee802f;
+$skype      :	#00acf4;
+$snapchat   :	#fffc00;
+$spotify    :	#7ab800;
+$tumblr     :	#32506d;
+$twitter    :	#4099FF;
+$twitter2   :	#00a9f1;
+$vimeo      :	#aad450;
+$vine       :	#00bf8f;
+$yelp       :	#c30f00;
+$youtube    :	#bb0000;
+
+// Dict
+// get dict value:
+// color: map_get($social-colors, facebook);
+
+$social-colors: (
+  amazon     : $amazon,
+  apple      : $apple,
+  basecamp   : $basecamp,
+  dribbble   : $dribbble,
+  dropbox    : $dropbox,
+  ebay       : $ebay,
+  facebook   : $facebook,
+  facebook2  : $facebook2,
+  facebook3  : $facebook3,
+  facebook4  : $facebook4,
+  flickr     : $flickr,
+  foursquare : $foursquare,
+  github     : $github,
+  google     : $google,
+  googlePlus : $googlePlus,
+  googlePlus2: $googlePlus2,
+  instagram  : $instagram,
+  linkedin   : $linkedin,
+  npm        : $npm,
+  pinterest  : $pinterest,
+  quora      : $quora,
+  rss        : $rss,
+  skype      : $skype,
+  snapchat   : $snapchat,
+  spotify    : $spotify,
+  tumblr     : $tumblr,
+  twitter    : $twitter,
+  twitter2   : $twitter2,
+  vimeo      : $vimeo,
+  vine       : $vine,
+  yelp       : $yelp,
+  youtube    : $youtube
+);
+
+//@each $name, $color in $social-colors {
+//  .#{$name} {
+//    background-color: $color;
+//  }
+//}
